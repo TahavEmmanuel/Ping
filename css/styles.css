@@ -1,0 +1,95 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  color: hsl(0, 0%, 59%);
+  text-align: center
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.wrapper {
+  border: 1px solid red;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid #333333;
+  border-radius: 75px;
+  margin: 12px;
+  background: transparent;
+}
+
+input[type=email] {
+  padding: 7px;
+  width: 65%;
+}
+
+input[type=email]:focus {
+  border: none;
+}
+
+input[type=submit] {
+  background-color: hsl(222,85%,62%);
+  border: none;
+  color: #fff;
+  padding: 7px 30px;
+}
+
+input[type=submit]:hover {
+  background-color: hsl(223, 100%, 88%);
+  border: none;
+  cursor: pointer;
+
+}
+
+::placeholder {
+  color: #333333;
+}
+
+.heading-bold {
+  color: #000;
+  font-weight: 700;
+}
+
+.sub-info {
+  color: #000;
+  padding: 7px;
+}
+
+.dashboard-image {
+  margin-bottom: 75px;
+}
+
+/* Footer */
+
+.footer-icons {
+  color: hsl(222,85%,62%);;
+  margin: 2%;
+}
+.footer-icons:hover {
+  color: hsl(223, 100%, 88%);
+  cursor: pointer;
+}
+
+.footer-text, .attribution {
+  font-size: 14px;
+}
+
+.attribution-link {
+  color: hsl(223, 100%, 88%);
+}
+
+
+@media (max-width: 600px) {
+  input {
+    width: 100% !important;
+  }
+}
